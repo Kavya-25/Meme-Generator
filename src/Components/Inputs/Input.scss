@@ -1,0 +1,28 @@
+@import '../../properties';
+.input-box{
+    form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .inputs{
+        margin: 2rem 0;
+        input{
+            margin:0 1rem ;
+           min-width:300px;
+           padding:5px 10px;
+        }
+    }
+    .inputBtn{
+        margin: 1.5rem auto;
+        padding: 20px 40px;
+        background: $background-gradient;
+        outline: none;
+        border: none;
+        color: $font-color-white;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+}
+   
+}

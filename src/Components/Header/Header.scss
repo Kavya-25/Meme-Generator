@@ -1,0 +1,8 @@
+@import '../../properties';
+.header{
+background:$background-gradient;
+color: $font-color-white;
+display: flex;
+justify-content: left;
+align-items: center;
+}
