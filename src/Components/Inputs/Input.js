@@ -4,7 +4,7 @@ import {memesData} from '../Data/memesData'
 
 export default function Input() {
   
-  const [memeImage,setmemeImage]=useState();
+  const [memeImage,setmemeImage]=useState("https://i.imgflip.com/1ur9b0.jpg");
 
   const setimageHandler=()=>{
     const memeimageArray=memesData.data.memes;
